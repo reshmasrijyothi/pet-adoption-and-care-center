@@ -6,7 +6,7 @@ Welcome to **PawPal**, a full-stack MERN (MongoDB, Express.js, React, Node.js) a
 
 ## 🌐 Live Demo
 
-🚀 [View Deployed Site]([https://pet-adoption-and-care-center-4.onrender.com]) 
+🚀 **[View Deployed Site](https://pet-adoption-and-care-center-4.onrender.com)**
 
 ---
 
