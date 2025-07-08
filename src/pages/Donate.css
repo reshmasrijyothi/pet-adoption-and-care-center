@@ -1,0 +1,98 @@
+.donate-wrapper {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.donate-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.donate-hero h1 {
+  color: #0d47a1; /* Deep Blue */
+  font-size: 2.4rem;
+}
+
+.donate-hero p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+.donate-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.donate-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.amount-options {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.amount-btn {
+  padding: 0.6rem 1.2rem;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.amount-btn.selected,
+.amount-btn:hover {
+  background-color: #1976d2; /* Bright blue */
+  color: white;
+}
+
+.donate-btn {
+  background-color: #0d47a1; /* Dark Blue */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #08306b;
+}
+
+.qr-section {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.qr-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.qr-image {
+  width: 180px;
+  height: auto;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}

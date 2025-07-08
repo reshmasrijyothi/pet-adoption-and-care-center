@@ -1,0 +1,104 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 10px 0;
+  width: 100vw;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+
+/* Remove default link styling and add custom styles */
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.16s, color 0.16s;
+}
+
+nav a:hover, nav a.active {
+  background: #f0f7ff;
+  color: #005fa3;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  nav {
+    gap: 12px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.97rem;
+    padding: 8px 0;
+  }
+  nav a {
+    width: 92vw;
+    max-width: 320px;
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  nav {
+    gap: 2px;
+    font-size: 0.93rem;
+    padding: 5px 0;
+  }
+  nav a {
+    width: 98vw;
+    max-width: 98vw;
+    font-size: 0.95rem;
+    padding: 7px 0;
+  }
+}
+nav .logout-btn {
+  background: none;
+  border: none;
+  color: #0077cc;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.16s, color 0.16s;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+nav .logout-btn:hover {
+  background: #f0f7ff;
+  color: #005fa3;
+}
+
+@media (max-width: 700px) {
+  nav .logout-btn {
+    width: 92vw;
+    max-width: 320px;
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  nav .logout-btn {
+    width: 98vw;
+    max-width: 98vw;
+    font-size: 0.95rem;
+    padding: 7px 0;
+  }
+}

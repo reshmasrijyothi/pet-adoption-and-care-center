@@ -1,0 +1,45 @@
+.petcare-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.petcare-container h1 {
+  margin-bottom: 1rem;
+  color: #2a2a2a;
+}
+
+.tip-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tip-card {
+  background: #f8f9fb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.tip-card h3 {
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+}
+
+.tip-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+.petcarew{
+    background-color: #ffffff;
+  background-size: cover;
+  width:100vw;
+}

@@ -1,0 +1,179 @@
+/* General Layout */
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-button:hover {
+  background-color: #005fa3;
+}
+
+.hero-image img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 16px;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f8f9fb;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  width: 280px;
+}
+
+.card h3 {
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f6f6f6;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 2px solid #ddd;
+}
+
+.contact-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  max-width: 500px;
+  margin: 1rem auto 0 auto;
+  line-height: 1.6;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .hero {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .hero-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .feature-cards {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .features {
+    padding: 2.5rem 0.5rem;
+  }
+
+  .card {
+    width: 90vw;
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding: 1rem 0.8rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero-button {
+    padding: 0.6rem 1.1rem;
+    font-size: 1rem;
+  }
+
+  .features h2 {
+    font-size: 1.1rem;
+  }
+
+  .card {
+    padding: 1rem 0.5rem;
+    width: 97vw;
+  }
+
+  .contact-card {
+    font-size: 0.95rem;
+    padding: 1rem;
+  }
+}

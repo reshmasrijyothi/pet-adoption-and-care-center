@@ -1,0 +1,87 @@
+/* Full-page background and center */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  padding: 1rem;
+}
+
+/* Login card */
+.login-box {
+  background-color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Title */
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.75rem;
+}
+
+/* Input fields */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border 0.3s ease;
+}
+
+.login-box input:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+/* Submit button */
+.login-box button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #005fa3;
+}
+
+/* Success message */
+.success-message {
+  color: green;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  animation: fadein 0.5s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
