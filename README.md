@@ -1,4 +1,3 @@
-# pet-adoption-and-care-center
 # 🐾 Pet Adoption and Care Center
 
 Welcome to **PawPal**, a full-stack MERN (MongoDB, Express.js, React, Node.js) application that allows users to adopt pets, get pet care tips, schedule services like grooming and training, and support through donations.
